@@ -42,7 +42,8 @@ class QuestionsViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        guard let resultVC = segue.destination as? ResultViewController else { return }
+        resultVC.answer = answersChosen
     }
     
     @IBAction func singleAnswerButtonPressed(_ sender: UIButton) {
