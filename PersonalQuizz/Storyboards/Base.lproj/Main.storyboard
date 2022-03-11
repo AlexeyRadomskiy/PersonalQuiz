@@ -270,13 +270,7 @@
                             <constraint firstItem="cM5-6g-TWu" firstAttribute="trailing" secondItem="ffR-qd-wb6" secondAttribute="trailing" id="yve-ap-za4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Вопрос №" id="mwS-ih-dJM">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="1fP-Cb-xjC">
-                            <connections>
-                                <segue destination="G3Z-uY-oNM" kind="show" id="0Dp-hc-tXM"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Вопрос №" id="mwS-ih-dJM"/>
                     <connections>
                         <outlet property="multipleStackView" destination="sSo-n3-QAW" id="seD-7j-frW"/>
                         <outlet property="questionLabel" destination="TL4-W5-5Vu" id="Cqh-e5-lpS"/>
@@ -375,9 +369,6 @@
             <point key="canvasLocation" x="840" y="68"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="lSP-FX-i1m"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
